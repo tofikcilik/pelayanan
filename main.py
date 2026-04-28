@@ -1,10 +1,10 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Halo dari AI Agent di pelayanan.id'
+    return render_template('index.html')
 
 @app.route('/health')
 def health_check():

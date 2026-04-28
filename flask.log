@@ -1,0 +1,19 @@
+nohup: ignoring input
+ * Serving Flask app 'main'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with watchdog (inotify)
+ * Debugger is active!
+ * Debugger PIN: 508-479-641
+172.25.0.3 - - [28/Apr/2026 12:33:07] "GET / HTTP/1.1" 200 -
+172.25.0.3 - - [28/Apr/2026 12:33:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+172.25.0.3 - - [28/Apr/2026 14:39:52] "[33mGET /_ignition/execute-solution HTTP/1.1[0m" 404 -
+172.25.0.3 - - [28/Apr/2026 17:11:59] "GET / HTTP/1.1" 200 -
+ * Detected change in '/app/main.py', reloading
+ * Restarting with watchdog (inotify)
+ * Debugger is active!
+ * Debugger PIN: 508-479-641
